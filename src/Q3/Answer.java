@@ -79,6 +79,7 @@ public class Answer {
                     offset ++;
                     String next = s.charAt(start + offset) + "";
                     if(temp.contains(next)){
+                        i = start + offset - 1;
                         break;
                     } else {
                         temp += next;
