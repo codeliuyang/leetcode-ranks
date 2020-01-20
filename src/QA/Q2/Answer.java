@@ -1,4 +1,4 @@
-package Q2;
+package QA.Q2;
 
 import org.junit.Test;
 
